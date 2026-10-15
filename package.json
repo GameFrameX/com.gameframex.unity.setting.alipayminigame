@@ -2,7 +2,7 @@
   "name": "com.gameframex.unity.setting.alipayminigame",
   "displayName": "Game Frame X Setting (Alipay Mini Game)",
   "category": "Game Frame X",
-  "description": "Game Frame X Setting Alipay Mini Game Storage Backend",
+  "description": "Alipay Mini Game storage backend for GameFrameX Setting. Implements ISettingStorageBackend over the AlipaySdk synchronous storage APIs (string-based values; blank values are treated as missing) and self-registers via SettingStorageBackendFactory during SubsystemRegistration — referencing means registering, no manual setup. One backend per runtime environment (first registration wins); Editor and environments without a channel package fall back to Unity PlayerPrefs. Guarded by asmdef defineConstraints (UNITY_WEBGL + ENABLE_ALIPAY_MINI_GAME) with Preserve-based IL2CPP stripping protection. Docs: https://gameframex.doc.alianblank.com\n\nGameFrameX Setting 的支付宝小游戏存储后端渠道包。基于 AlipaySdk 同步存储 API（字符串存取，空值视为不存在）实现 ISettingStorageBackend，并在 SubsystemRegistration 阶段经 SettingStorageBackendFactory 自注册（引用即注册，无需手动配置）。每个运行环境至多一个后端（首个注册生效），Editor 与未注册渠道的环境回退 Unity PlayerPrefs。asmdef defineConstraints（UNITY_WEBGL + ENABLE_ALIPAY_MINI_GAME）守护编译，并以 Preserve 防止 IL2CPP 裁剪。文档：https://gameframex.doc.alianblank.com",
   "version": "1.0.0",
   "unity": "2019.4",
   "keywords": [
