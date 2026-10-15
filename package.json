@@ -1,12 +1,12 @@
 {
   "name": "com.gameframex.unity.setting.alipayminigame",
   "displayName": "Game Frame X Setting (Alipay Mini Game)",
-  "category": "Game Framework X",
+  "category": "Game Frame X",
   "description": "Game Frame X Setting Alipay Mini Game Storage Backend",
   "version": "1.0.0",
   "unity": "2019.4",
   "keywords": [
-    "Game Framework X"
+    "Game Frame X"
   ],
   "repository": {
     "name": "com.gameframex.unity.setting.alipayminigame",
@@ -19,8 +19,7 @@
     "url": "https://gameframex.doc.alianblank.com"
   },
   "dependencies": {
-    "com.gameframex.unity": "2.5.4",
-    "com.gameframex.unity.setting": "3.0.0"
+    "com.gameframex.unity.setting": "2.0.0"
   },
   "devDependencies": {
     "semantic-release": "^24.2.0",
