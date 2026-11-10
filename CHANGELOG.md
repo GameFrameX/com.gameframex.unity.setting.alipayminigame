@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/gameframex/com.gameframex.unity.setting.alipayminigame/compare/1.0.1...1.1.0) (2026-11-10)
+
+
+### Features
+
+* **setting.alipayminigame:** 新增支付宝小游戏存档文件存储后端 ([0a973ab](https://github.com/gameframex/com.gameframex.unity.setting.alipayminigame/commit/0a973ab8a6a3d9f47b8ff8c42bfe72785f6eec69))
+
 ## [1.0.1](https://github.com/gameframex/com.gameframex.unity.setting.alipayminigame/compare/1.0.0...1.0.1) (2026-11-10)
 
 
