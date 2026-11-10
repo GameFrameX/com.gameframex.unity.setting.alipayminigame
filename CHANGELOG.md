@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/gameframex/com.gameframex.unity.setting.alipayminigame/compare/1.0.0...1.0.1) (2026-11-10)
+
+
+### Bug Fixes
+
+* **setting.alipayminigame:** 添加完整 link.xml 防代码裁剪保护 ([873b1b2](https://github.com/gameframex/com.gameframex.unity.setting.alipayminigame/commit/873b1b261647f5e82728241e69ac710a7b421c58))
+
 # 1.0.0 (2026-10-15)
 
 
