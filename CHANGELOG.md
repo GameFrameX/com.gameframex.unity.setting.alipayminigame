@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/gameframex/com.gameframex.unity.setting.alipayminigame/compare/1.1.0...1.1.1) (2026-11-13)
+
+
+### Bug Fixes
+
+* **setting.alipayminigame:** 存档目录已存在时 MkdirSync 平台报错 ([8228642](https://github.com/gameframex/com.gameframex.unity.setting.alipayminigame/commit/8228642dc3920a9ce094730f8b264f87291833e5))
+
 # [1.1.0](https://github.com/gameframex/com.gameframex.unity.setting.alipayminigame/compare/1.0.1...1.1.0) (2026-11-10)
 
 
