@@ -55,6 +55,11 @@ namespace GameFrameX.Setting.Runtime
 
         protected override void CreateDirectoryIfExistsMissing(string directoryPath)
         {
+            if (GetFileSystemManager().AccessSync(directoryPath).Equals("access:ok"))
+            {
+                return;
+            }
+
             GetFileSystemManager().MkdirSync(directoryPath, true);
         }
 
